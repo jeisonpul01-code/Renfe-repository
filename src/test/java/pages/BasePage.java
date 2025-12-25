@@ -15,8 +15,4 @@ public class BasePage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         PageFactory.initElements(driver, this);
     }
-
-    public void NavigateToRenfePublicSite() {
-        driver.get("https://www.renfe.com/es/es");
-    }
 }
