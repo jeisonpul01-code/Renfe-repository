@@ -8,7 +8,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    public void NavigateToRenfePublicSite() {
+    public void NavigateToRenfeHomePage() {
         driver.get("https://www.renfe.com/es/es");
     }
 
