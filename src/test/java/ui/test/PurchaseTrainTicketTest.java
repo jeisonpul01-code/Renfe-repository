@@ -10,5 +10,10 @@ public class PurchaseTrainTicketTest extends BaseTest {
     public void buyTicketTest(){
         HomePage homePage = new HomePage(driver);
         homePage.NavigateToRenfeHomePage();
+        homePage.AcceptAllCookies();
+        homePage.EnterOrigin("Madrid-Atocha");
+        homePage.selectFirstAutocompleteOption();
+        homePage.assertOriginIsMadridAtochaCercanias();
+        homePage.waitSeconds(20);
     }
 }

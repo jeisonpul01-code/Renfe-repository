@@ -10,8 +10,8 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp(){
-        String browser = System.getProperty("browser", "chrome");
-        driver = DriverFactory.initializeDriver(browser);
+        driver = DriverFactory.initializeDriver();
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
