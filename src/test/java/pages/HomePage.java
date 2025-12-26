@@ -4,7 +4,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
+import utils.AssertExt;
+import utils.Report;
 
 public class HomePage extends BasePage {
 
@@ -19,11 +20,15 @@ public class HomePage extends BasePage {
     private WebElement originInput;
 
     public void NavigateToRenfeHomePage() {
+        log.info("Navigating to Renfe");
+        Report.step("Navigating to Renfe");
         driver.get("https://www.renfe.com/es/es");
         waitForVisibility(originInput, false);
     }
 
     public void AcceptAllCookies() {
+        log.info("Accepting cookies");
+        Report.step("Accepting cookies");
         waitForVisibility(acceptAllCookiesButton, false);
         if (acceptAllCookiesButton.isDisplayed()) {
             waitAndClick(acceptAllCookiesButton);
@@ -31,19 +36,24 @@ public class HomePage extends BasePage {
     }
 
     public void EnterOrigin(String origin) {
+        log.info("writing origin point");
+        Report.step("writing origin point");
         type(originInput, origin, true);
     }
 
     public void selectFirstAutocompleteOption() {
+        log.info("selecting the first autocomplete option");
+        Report.step("selecting the first autocomplete option");
         confirmAutocompleteSelection(originInput);
     }
 
     public void assertOriginIsMadridAtochaCercanias() {
-        String expected = "MADRID-ATOCHA CERCANÍAS";
-        waitForVisibility(originInput, true);
-        String actual = originInput.getAttribute("value");
-        Assert.assertEquals(actual, expected,
-                String.format("Texto esperado: %s, Texto obtenido: %s", expected, actual));
+        log.info("verifying that the point of origin is Madrid-Atocha Cercanias");
+        Report.step("verifying that the point of origin is Madrid-Atocha Cercanias");
+        AssertExt.assertEquals(
+                originInput.getAttribute("value"),
+                "MADRID-ATOCHA CERCANÍAS",
+                "The selected origin must be MADRID-ATOCHA CERCANÍAS");
     }
 
 }

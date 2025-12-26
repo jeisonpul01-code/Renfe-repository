@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="278a7b38-6ccf-4ecc-9443-d2655e1c6385" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentTestNGListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AssertExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/test/PurchaseTrainTicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/test/PurchaseTrainTicketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +30,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="reports" />
+                    <option name="lastUsedInstant" value="1766786927" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1766786926" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -42,25 +74,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.PurchaseTrainTicketTest.buyTicketTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SimpleTestNGTest.sampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.PurchaseTrainTicketTest.buyTicketTest.executor": "Run",
+    "TestNG.SimpleTestNGTest.sampleTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jeison\Desktop\automatizacion\RenfeFramework\src\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pages" />
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PurchaseTrainTicketTest.buyTicketTest">
+  <component name="RunManager" selected="TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml">
+    <configuration name="C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RenfeFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PurchaseTrainTicketTest.buyTicketTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RenfeFramework" />
       <extension name="coverage">
@@ -99,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.PurchaseTrainTicketTest.buyTicketTest" />
         <item itemvalue="TestNG.SimpleTestNGTest.sampleTest" />
       </list>
@@ -114,6 +162,17 @@
       <updated>1766695298026</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

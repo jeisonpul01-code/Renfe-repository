@@ -1,0 +1,53 @@
+2025-12-26 23:17:25 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-26 23:17:25 INFO  pages.HomePage - Navigating to Renfe
+2025-12-26 23:17:29 INFO  pages.HomePage - Accepting cookies
+2025-12-26 23:17:49 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-26 23:23:03 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-26 23:23:03 INFO  pages.HomePage - Navigating to Renfe
+2025-12-26 23:23:07 INFO  pages.HomePage - Accepting cookies
+2025-12-26 23:23:07 INFO  pages.HomePage - writing origin point
+2025-12-26 23:23:07 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-26 23:23:07 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-26 23:23:27 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-26 23:31:30 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-26 23:31:30 INFO  pages.HomePage - Navigating to Renfe
+2025-12-26 23:31:33 INFO  pages.HomePage - Accepting cookies
+2025-12-26 23:31:34 INFO  pages.HomePage - writing origin point
+2025-12-26 23:31:34 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-26 23:31:34 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-26 23:31:54 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-26 23:41:21 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-26 23:41:21 INFO  pages.HomePage - Navigating to Renfe
+2025-12-26 23:41:24 INFO  pages.HomePage - Accepting cookies
+2025-12-26 23:41:25 INFO  pages.HomePage - writing origin point
+2025-12-26 23:41:25 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-26 23:41:25 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-26 23:41:45 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-26 23:56:01 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-26 23:56:01 INFO  pages.HomePage - Navigating to Renfe
+2025-12-26 23:56:04 INFO  pages.HomePage - Accepting cookies
+2025-12-26 23:56:05 INFO  pages.HomePage - writing origin point
+2025-12-26 23:56:05 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-26 23:56:05 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-26 23:56:25 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:08:40 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:08:40 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:08:43 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:08:44 INFO  pages.HomePage - writing origin point
+2025-12-27 00:08:44 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-27 00:08:44 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-27 00:09:04 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:09:48 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:09:48 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:09:52 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:09:52 INFO  pages.HomePage - writing origin point
+2025-12-27 00:09:52 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-27 00:09:52 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-27 00:09:52 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:12:55 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:12:55 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:12:58 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:12:58 INFO  pages.HomePage - writing origin point
+2025-12-27 00:12:59 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-27 00:12:59 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
+2025-12-27 00:13:19 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
