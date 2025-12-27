@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="278a7b38-6ccf-4ecc-9443-d2655e1c6385" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ExtentTestNGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AssertExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestExecutionReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/TestExecutionReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/test/PurchaseTrainTicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/test/PurchaseTrainTicketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AssertExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/AssertExt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

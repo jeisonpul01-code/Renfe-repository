@@ -63,7 +63,7 @@ public class BasePage {
         element.sendKeys(text);
     }
 
-    public  void confirmAutocompleteSelection(WebElement input) {
+    public  void confirmFirstAutocompleteSelection(WebElement input) {
         wait.until(ExpectedConditions.visibilityOf(input));
         input.sendKeys(Keys.ARROW_DOWN, Keys.ENTER);
     }

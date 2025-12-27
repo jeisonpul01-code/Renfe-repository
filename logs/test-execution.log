@@ -51,3 +51,59 @@
 2025-12-27 00:12:59 INFO  pages.HomePage - selecting the first autocomplete option
 2025-12-27 00:12:59 INFO  pages.HomePage - verifying that the point of origin is Madrid-Atocha Cercanias
 2025-12-27 00:13:19 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:21:47 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:21:48 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:21:51 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:21:51 INFO  pages.HomePage - writing origin point
+2025-12-27 00:21:52 INFO  pages.HomePage - selecting the first autocomplete option
+2025-12-27 00:22:12 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:39:10 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:39:10 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:39:14 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:39:14 INFO  pages.HomePage - writing origin point
+2025-12-27 00:39:14 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 00:39:14 INFO  pages.HomePage - writing destination
+2025-12-27 00:39:14 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 00:41:54 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:41:54 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:41:57 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:41:57 INFO  pages.HomePage - writing origin point
+2025-12-27 00:41:57 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 00:41:57 INFO  pages.HomePage - writing destination
+2025-12-27 00:41:58 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-27 00:42:18 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 00:56:50 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 00:56:50 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 00:56:54 INFO  pages.HomePage - Accepting cookies
+2025-12-27 00:56:54 INFO  pages.HomePage - writing origin point
+2025-12-27 00:56:54 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-27 00:56:54 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 00:56:54 INFO  pages.HomePage - writing destination
+2025-12-27 00:56:54 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-27 00:56:55 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-27 00:56:56 INFO  pages.HomePage - selecting one-way trip
+2025-12-27 00:57:16 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 01:37:53 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 01:37:53 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 01:37:56 INFO  pages.HomePage - Accepting cookies
+2025-12-27 01:37:56 INFO  pages.HomePage - writing origin point
+2025-12-27 01:37:57 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-27 01:37:57 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 01:37:57 INFO  pages.HomePage - writing destination
+2025-12-27 01:37:57 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-27 01:37:57 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-27 01:37:58 INFO  pages.HomePage - selecting one-way trip
+2025-12-27 01:37:58 INFO  pages.HomePage - selecting a valid date in date picker
+2025-12-27 01:38:19 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-27 01:56:58 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-27 01:56:58 INFO  pages.HomePage - Navigating to Renfe
+2025-12-27 01:57:01 INFO  pages.HomePage - Accepting cookies
+2025-12-27 01:57:02 INFO  pages.HomePage - writing origin point
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-27 01:57:02 INFO  pages.HomePage - writing destination
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting one-way trip
+2025-12-27 01:57:02 INFO  pages.HomePage - selecting a valid date in date picker
+2025-12-27 01:57:23 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
