@@ -3,20 +3,25 @@ package factory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverFactory {
 
     public static WebDriver initializeDriver() {
 
-        // 1) Prevents an old property from forcing an old chromedriver
         System.clearProperty("webdriver.chrome.driver");
 
-        // 2) Clear caches to prevent WDM from reusing old resolutions/drivers
         WebDriverManager.chromedriver()
                 .clearResolutionCache()
                 .clearDriverCache()
                 .setup();
 
-        return new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-notifications");
+        options.addArguments("--disable-infobars");
+        options.addArguments("--disable-geolocation");
+
+        return new ChromeDriver(options);
     }
 }
+

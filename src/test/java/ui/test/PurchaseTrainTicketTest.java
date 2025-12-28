@@ -3,6 +3,8 @@ package ui.test;
 import base.BaseTest;
 import org.testng.annotations.Test;
 import pages.HomePage;
+import pages.PassengerDetailsPage;
+import pages.TrainSelectionPage;
 import utils.AssertExt;
 
 public class PurchaseTrainTicketTest extends BaseTest {
@@ -15,12 +17,12 @@ public class PurchaseTrainTicketTest extends BaseTest {
         homePage.acceptAllCookies();
 
         //Selecting origin
-        homePage.enterOrigin("Madrid-Atocha");
+        homePage.enterOrigin("Madrid-Puerta");
         homePage.selectFirstAutocompleteOptionForOrigin();
         AssertExt.assertEquals(
                 homePage.getSelectedOrigin(),
-                "MADRID-ATOCHA CERCANÍAS",
-                "The selected origin must be MADRID-ATOCHA CERCANÍAS"
+                "MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES",
+                "The selected origin must be MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES"
         );
 
         //Selecting destination
@@ -32,18 +34,32 @@ public class PurchaseTrainTicketTest extends BaseTest {
                 "The selected destination must be BARCELONA-SANTS"
         );
 
-        //Configure “One-way” trip
+        //Configure “One-way” trip And date with price between 50 and 60 euros
         homePage.selectOneWayTrip();
-        homePage.selectValidDate();
-        AssertExt.assertMatches(
-                homePage.getOneWayTripInput(),
-                "^[a-záéíóúñ]{3}\\.?\\,?\\s15/(0[12])/26$",
-                "The departure date must be the 15th and have the following format: 'ddd., 15/MM/26' with MM = 01 o 02"
+        homePage.selectFirstAvailableDayWithPriceBetween(50, 60, 3);
+        homePage.clickAcceptDateButton();
+        TrainSelectionPage trainSelectionPage = homePage.clickSearchForTicket();
+
+        //Search for ticket and select first train with price between 50 and 60 euros
+        trainSelectionPage.waitResultsLoaded();
+        AssertExt.assertEachTrainHasDurationAndPrice(
+                trainSelectionPage.getTrainRowCount(),
+                trainSelectionPage.getPriceCount(),
+                trainSelectionPage.getDurationCount()
+        );
+        double selectedPrice = trainSelectionPage.selectFirstTrainWithPriceBetween(50, 60);
+        AssertExt.assertBetween( selectedPrice,
+                50,
+                60,
+                "Selected train price must be between 50€ and 60€"
         );
 
-        //Search for ticket and load results
-
-
-        homePage.waitSeconds(20);
+        //Selecting basic fare and continue to passenger details page
+        trainSelectionPage.selectBasicFareForSelectedTrain();
+        PassengerDetailsPage passengerDetailsPage = trainSelectionPage.clickContinueWithBasicFare();
+        AssertExt.assertDisplayed(
+                passengerDetailsPage.isPassengerDetailsPageDisplayed(),
+                "Passenger Details page is displayed"
+        );
     }
 }
