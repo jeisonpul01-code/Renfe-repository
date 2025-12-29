@@ -32,6 +32,9 @@ public class TrainSelectionPage extends BasePage {
     @FindBy(css = "button[id='btnSeleccionar'][class='select-more']")
     private WebElement selectButton;
 
+    @FindBy(css = "button[type='button'][class='close close-editado']")
+    private WebElement closeTripNoticeModalButton;
+
    public double selectFirstTrainWithPriceBetween(double minPrice, double maxPrice) {
        log.info("Select first train with price between {}€ and {}€", minPrice, maxPrice);
        Report.step("Select first train with price between {}€ and {}€", minPrice, maxPrice);
@@ -108,6 +111,12 @@ public class TrainSelectionPage extends BasePage {
         log.info("Clicking continue with basic fare button");
         Report.step("Clicking continue with basic fare button");
         waitAndClick(continueWithBasicFareButton);
+        waitForVisibility(closeTripNoticeModalButton, false);
+        if (closeTripNoticeModalButton.isDisplayed()) {
+            log.info("Closing trip notice modal");
+            Report.step("Closing trip notice modal");
+            waitAndClick(closeTripNoticeModalButton);
+        }
         return new PassengerDetailsPage(driver);
     }
 }

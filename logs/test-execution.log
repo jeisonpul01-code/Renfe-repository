@@ -18,3 +18,81 @@
 2025-12-29 00:52:55 INFO  pages.TrainSelectionPage - Selecting Basic fare for selected train
 2025-12-29 00:52:56 INFO  pages.TrainSelectionPage - Clicking continue with basic fare button
 2025-12-29 00:52:58 INFO  ui.test.PurchaseTrainTicketTest - Driver closed
+2025-12-29 19:25:21 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-29 19:25:21 INFO  pages.HomePage - Navigating to Renfe
+2025-12-29 19:25:24 INFO  pages.HomePage - Accepting cookies
+2025-12-29 19:25:25 INFO  pages.HomePage - writing origin point
+2025-12-29 19:25:25 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-29 19:25:25 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-29 19:25:25 INFO  pages.HomePage - writing destination
+2025-12-29 19:25:25 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-29 19:25:25 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-29 19:25:25 INFO  pages.HomePage - selecting one-way trip
+2025-12-29 19:25:26 INFO  pages.HomePage - Select first date with price from 50€ y 60€
+2025-12-29 19:25:27 INFO  pages.HomePage - Selected day 3
+60€ with price 60€
+2025-12-29 19:25:27 INFO  pages.HomePage - Click Search ticket and wait for venta.renfe.com
+2025-12-29 19:25:28 INFO  pages.TrainSelectionPage - Waiting results list to be loaded
+2025-12-29 19:25:29 INFO  pages.TrainSelectionPage - Select first train with price between 50.0€ and 60.0€
+2025-12-29 19:25:29 INFO  pages.TrainSelectionPage - Train selected with price 59.3€
+2025-12-29 19:25:29 INFO  pages.TrainSelectionPage - Selecting Basic fare for selected train
+2025-12-29 19:25:30 INFO  pages.TrainSelectionPage - Clicking continue with basic fare button
+2025-12-29 19:25:52 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-29 19:25:52 INFO  pages.HomePage - Navigating to Renfe
+2025-12-29 19:25:55 INFO  pages.HomePage - Accepting cookies
+2025-12-29 19:25:56 INFO  pages.HomePage - writing origin point
+2025-12-29 19:25:56 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-29 19:25:56 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-29 19:25:56 INFO  pages.HomePage - writing destination
+2025-12-29 19:25:56 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-29 19:25:57 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-29 19:25:57 INFO  pages.HomePage - selecting one-way trip
+2025-12-29 19:25:57 INFO  pages.HomePage - Select first date with price from 50€ y 60€
+2025-12-29 19:25:59 INFO  pages.HomePage - Selected day 3
+60€ with price 60€
+2025-12-29 19:25:59 INFO  pages.HomePage - Click Search ticket and wait for venta.renfe.com
+2025-12-29 19:26:00 INFO  pages.TrainSelectionPage - Waiting results list to be loaded
+2025-12-29 19:26:00 INFO  pages.TrainSelectionPage - Select first train with price between 50.0€ and 60.0€
+2025-12-29 19:26:00 INFO  pages.TrainSelectionPage - Train selected with price 59.3€
+2025-12-29 19:26:01 INFO  pages.TrainSelectionPage - Selecting Basic fare for selected train
+2025-12-29 19:26:01 INFO  pages.TrainSelectionPage - Clicking continue with basic fare button
+2025-12-29 19:26:28 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-29 19:26:28 INFO  pages.HomePage - Navigating to Renfe
+2025-12-29 19:26:32 INFO  pages.HomePage - Accepting cookies
+2025-12-29 19:26:32 INFO  pages.HomePage - writing origin point
+2025-12-29 19:26:32 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-29 19:26:32 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-29 19:26:32 INFO  pages.HomePage - writing destination
+2025-12-29 19:26:33 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-29 19:26:33 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-29 19:26:33 INFO  pages.HomePage - selecting one-way trip
+2025-12-29 19:26:34 INFO  pages.HomePage - Select first date with price from 50€ y 60€
+2025-12-29 19:26:36 INFO  pages.HomePage - Selected day 3
+60€ with price 60€
+2025-12-29 19:26:36 INFO  pages.HomePage - Click Search ticket and wait for venta.renfe.com
+2025-12-29 19:26:37 INFO  pages.TrainSelectionPage - Waiting results list to be loaded
+2025-12-29 19:26:37 INFO  pages.TrainSelectionPage - Select first train with price between 50.0€ and 60.0€
+2025-12-29 19:26:37 INFO  pages.TrainSelectionPage - Train selected with price 59.3€
+2025-12-29 19:26:37 INFO  pages.TrainSelectionPage - Selecting Basic fare for selected train
+2025-12-29 19:26:39 INFO  pages.TrainSelectionPage - Clicking continue with basic fare button
+2025-12-29 19:40:59 INFO  ui.test.PurchaseTrainTicketTest - Driver initialized
+2025-12-29 19:40:59 INFO  pages.HomePage - Navigating to Renfe
+2025-12-29 19:41:03 INFO  pages.HomePage - Accepting cookies
+2025-12-29 19:41:03 INFO  pages.HomePage - writing origin point
+2025-12-29 19:41:03 INFO  pages.HomePage - selecting the first autocomplete option for origin
+2025-12-29 19:41:03 INFO  pages.HomePage - selecting the first autocomplete option for input: origin
+2025-12-29 19:41:03 INFO  pages.HomePage - writing destination
+2025-12-29 19:41:04 INFO  pages.HomePage - selecting the first autocomplete option for destination
+2025-12-29 19:41:04 INFO  pages.HomePage - selecting the first autocomplete option for input: destination
+2025-12-29 19:41:04 INFO  pages.HomePage - selecting one-way trip
+2025-12-29 19:41:04 INFO  pages.HomePage - Select first date with price from 50€ y 60€
+2025-12-29 19:41:06 INFO  pages.HomePage - Selected day 3
+60€ with price 60€
+2025-12-29 19:41:06 INFO  pages.HomePage - Click Search ticket and wait for venta.renfe.com
+2025-12-29 19:41:07 INFO  pages.TrainSelectionPage - Waiting results list to be loaded
+2025-12-29 19:41:07 INFO  pages.TrainSelectionPage - Select first train with price between 50.0€ and 60.0€
+2025-12-29 19:41:08 INFO  pages.TrainSelectionPage - Train selected with price 59.3€
+2025-12-29 19:41:08 INFO  pages.TrainSelectionPage - Selecting Basic fare for selected train
+2025-12-29 19:41:09 INFO  pages.TrainSelectionPage - Clicking continue with basic fare button
+2025-12-29 19:41:10 INFO  pages.TrainSelectionPage - Closing trip notice modal
+2025-12-29 19:41:12 INFO  ui.test.PurchaseTrainTicketTest - Driver closed

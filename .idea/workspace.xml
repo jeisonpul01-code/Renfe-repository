@@ -7,6 +7,8 @@
     <list default="true" id="278a7b38-6ccf-4ecc-9443-d2655e1c6385" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TestExecutionReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/TestExecutionReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TrainSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TrainSelectionPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml.executor": "Debug",
+    "TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml.executor": "Run",
     "TestNG.PurchaseTrainTicketTest.buyTicketTest.executor": "Run",
     "TestNG.SimpleTestNGTest.sampleTest.executor": "Run",
     "git-widget-placeholder": "master",
