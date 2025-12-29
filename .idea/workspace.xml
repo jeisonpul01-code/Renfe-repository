@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="278a7b38-6ccf-4ecc-9443-d2655e1c6385" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/ReqResRegisterThenGetUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ApiAssertExt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/test-execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/TestExecutionReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/TestExecutionReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TrainSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TrainSelectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +77,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml.executor": "Run",
     "TestNG.PurchaseTrainTicketTest.buyTicketTest.executor": "Run",
+    "TestNG.ReqResGetUserParamTest.getUserById_shouldReturn200.executor": "Run",
+    "TestNG.ReqResRegisterThenGetUserTest.register_shouldReturnIdAndToken_thenGetUserById.executor": "Run",
     "TestNG.SimpleTestNGTest.sampleTest.executor": "Run",
+    "TestNG.UserApiTest.testUserLifecycle.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test",
+    "last_opened_file_path": "C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -84,14 +92,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jeison\Desktop\automatizacion\RenfeFramework\src\test\resources" />
+      <recent name="C:\Users\jeison\Desktop\automatizacion\RenfeFramework\src\test\java" />
+      <recent name="C:\Users\jeison\Desktop\automatizacion\RenfeFramework\src\test\java\base" />
       <recent name="C:\Users\jeison\Desktop\automatizacion\RenfeFramework\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
       <recent name="pages" />
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.ReqResRegisterThenGetUserTest">
     <configuration name="C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RenfeFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -102,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseTrainTicketTest.buyTicketTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqResGetUserParamTest.getUserById_shouldReturn200" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RenfeFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ui.test.*" />
+          <option name="PATTERN" value="api.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ui.test" />
-      <option name="MAIN_CLASS_NAME" value="ui.test.PurchaseTrainTicketTest" />
-      <option name="METHOD_NAME" value="buyTicketTest" />
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.ReqResGetUserParamTest" />
+      <option name="METHOD_NAME" value="getUserById_shouldReturn200" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,17 +132,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTestNGTest.sampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReqResRegisterThenGetUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RenfeFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="api.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SimpleTestNGTest" />
-      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.ReqResRegisterThenGetUserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReqResRegisterThenGetUserTest.register_shouldReturnIdAndToken_thenGetUserById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RenfeFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.ReqResRegisterThenGetUserTest" />
+      <option name="METHOD_NAME" value="register_shouldReturnIdAndToken_thenGetUserById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApiTest.testUserLifecycle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RenfeFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserApiTest" />
+      <option name="METHOD_NAME" value="testUserLifecycle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,9 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReqResRegisterThenGetUserTest" />
         <item itemvalue="TestNG.C:/Users/jeison/Desktop/automatizacion/RenfeFramework/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.PurchaseTrainTicketTest.buyTicketTest" />
-        <item itemvalue="TestNG.SimpleTestNGTest.sampleTest" />
+        <item itemvalue="TestNG.ReqResRegisterThenGetUserTest.register_shouldReturnIdAndToken_thenGetUserById" />
+        <item itemvalue="TestNG.ReqResGetUserParamTest.getUserById_shouldReturn200" />
+        <item itemvalue="TestNG.UserApiTest.testUserLifecycle" />
       </list>
     </recent_temporary>
   </component>
