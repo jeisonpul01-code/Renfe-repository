@@ -1,3 +1,25 @@
+# Ignorar carpetas de logs
+logs/
+log/
+**/logs/
+**/log/
+*.log
+*.log.*
+
+# Ignorar carpetas de reportes
+report/
+reports/
+reporte/
+reports-html/
+allure-results/
+build/reports/
+target/reports/
+target/surefire-reports/
+target/failsafe-reports/
+coverage/
+coverage-reports/
+
+# Maven / Java
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
