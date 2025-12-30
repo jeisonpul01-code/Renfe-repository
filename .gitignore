@@ -19,6 +19,10 @@ target/failsafe-reports/
 coverage/
 coverage-reports/
 
+# Ignorar archivos generados específicos (por si ya existen en el repo)
+/reports/TestExecutionReport.html
+/logs/test-execution.log
+
 # Maven / Java
 target/
 !.mvn/wrapper/maven-wrapper.jar
