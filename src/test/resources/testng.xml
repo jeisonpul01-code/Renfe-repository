@@ -7,7 +7,7 @@
 
     <test name="Renfe Tests">
         <packages>
-<!--            <package name="ui.test"/>-->
+            <package name="ui.test"/>
             <package name="api.test"/>
         </packages>
     </test>

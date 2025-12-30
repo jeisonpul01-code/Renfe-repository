@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeSuite;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public abstract class BaseSuite {
+public class BaseSuite {
 
     @BeforeSuite(alwaysRun = true)
     public void ensureFolders() throws Exception {

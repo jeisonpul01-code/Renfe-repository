@@ -1,12 +1,9 @@
 package utils;
 
 import listeners.ExtentTestNGListener;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import java.util.List;
-import java.util.regex.Pattern;
+
 
 public final class AssertExt {
 
